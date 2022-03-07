@@ -8,7 +8,7 @@ public class Bicycle extends Vehicle {
     }
 
     @Override
-    public void doSmth() {
+    public void doSeriohable() {
 
     }
 }

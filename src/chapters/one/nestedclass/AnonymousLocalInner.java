@@ -3,6 +3,7 @@ package chapters.one.nestedclass;
 public class AnonymousLocalInner {
 
     private static String line = "Hello";
+
     interface InterfaceGreeting {
 
         String getAnotherGreetings();

@@ -4,6 +4,7 @@ public class LocalInner {
 
     private Integer number = 10;
     private final static String hello = "Hello";
+
     void sayHello() {
         String world = " world!";
         final class HelloTranslator {
@@ -15,8 +16,10 @@ public class LocalInner {
         HelloTranslator helloTranslator = new HelloTranslator();
         System.out.println(helloTranslator.getGreetings());
     }
+
     static void sayGoodbye() {
         final class GoodbyeTranslator {
+
             public String getGoodbye() {
                 return hello;
             }

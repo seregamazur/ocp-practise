@@ -3,7 +3,7 @@ package chapters.one.enums;
 public enum Certifications implements Seriohable {
     OCA(20) {
         @Override
-        public void doSmth() {
+        public void doSeriohable() {
         }
 
         @Override
@@ -20,9 +20,10 @@ public enum Certifications implements Seriohable {
         private String howItWas() {
             return "Hard";
         }
-    }, OCP(40, "") {
+    },
+    OCP(40, "") {
         @Override
-        public void doSmth() {
+        public void doSeriohable() {
         }
 
         @Override
@@ -48,6 +49,7 @@ public enum Certifications implements Seriohable {
         System.out.println("HELLO EPTA");
     }
 
+    //public, protected -> compile error
     Certifications(Integer price, String line) {
         this.price = price;
         this.line = line;
@@ -58,6 +60,5 @@ public enum Certifications implements Seriohable {
     public Boolean unDone() {
         return false;
     }
-
 
 }
