@@ -1,4 +1,4 @@
-package chapters.one.instance;
+package chapters.one.instanceofsmth;
 
 public abstract class Vehicle implements Seriohable {
 

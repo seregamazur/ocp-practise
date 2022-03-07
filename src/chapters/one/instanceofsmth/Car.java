@@ -1,10 +1,10 @@
-package chapters.one.instance;
+package chapters.one.instanceofsmth;
 
-public class Bicycle extends Vehicle {
+public class Car extends Vehicle {
 
     @Override
     Integer getWheels() {
-        return 2;
+        return 4;
     }
 
     @Override
