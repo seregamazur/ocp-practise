@@ -35,6 +35,18 @@ public class AnonymousLocalInner {
                 System.out.println("I'm mask");
             }
         };
+        final SomeClazz someClazzChild = new SomeClazz() {
+
+            @Override
+            void doSomeClazz() {
+
+            }
+
+            @Override
+            public void doSeriohable() {
+
+            }
+        };
     }
 
     public static void main(String[] args) {
