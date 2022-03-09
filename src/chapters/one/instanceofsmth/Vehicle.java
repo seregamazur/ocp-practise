@@ -1,6 +1,11 @@
 package chapters.one.instanceofsmth;
 
-public abstract class Vehicle implements Seriohable {
+public class Vehicle implements Seriohable {
 
-    abstract Integer getWheels();
+     Integer getWheels(){return 1;};
+
+    @Override
+    public void doSeriohable() {
+
+    }
 }
