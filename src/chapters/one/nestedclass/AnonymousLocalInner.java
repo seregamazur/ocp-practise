@@ -3,6 +3,7 @@ package chapters.one.nestedclass;
 public class AnonymousLocalInner {
 
     private static String line = "Hello";
+    private final String goodbye = "Bye";
 
     interface InterfaceGreeting {
 
@@ -18,7 +19,7 @@ public class AnonymousLocalInner {
         Greeting greeting = new Greeting() {
             @Override
             String getGreetings() {
-                return line + ", World!";
+                return line + ", World!" + goodbye;
             }
         };
         InterfaceGreeting interfaceGreeting = new InterfaceGreeting() {
@@ -46,6 +47,9 @@ public class AnonymousLocalInner {
             public void doSeriohable() {
 
             }
+        };
+        final ClassWithNoOverrideMethods classWithNoOverrideMethods = new ClassWithNoOverrideMethods() {
+
         };
     }
 
